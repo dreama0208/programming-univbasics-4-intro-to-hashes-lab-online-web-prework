@@ -30,7 +30,7 @@ end
 
 def update_counting_hash(hash, key)
     hash = {
-      "magic number" >= 1
+      "magic number" => 1
     }
     if hash[key]
        hash[key] +=1
